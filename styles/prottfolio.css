@@ -23,6 +23,10 @@
     background-position: bottom right, left;
 }
 
+.what-i-do{
+    margin-top: 130px;
+}
+
 
 /* header and  navigation style */
 nav{
@@ -86,14 +90,13 @@ main{
 /* about section stules */
 .about{
     text-align: center;
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150pxs;
 
 }
 .section-title{
-    
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
     margin: 30px;
@@ -119,23 +122,28 @@ main{
 
 }
 
-.what-i-do{
-    margin-top: 130px;
+
+.what{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+
 }
 .skills-conteiner{
     display: flex;
     gap: 24px;
 
 }
-.skiill{
-    text-align: center;
+.skill{
+    /* text-align: center; */
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px; 
 }
 .skill-title{
-    
+    /* text-align: center; */
     font-weight: 700;
     font-size: 20px;
     margin-top: 30px;
